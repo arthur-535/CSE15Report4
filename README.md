@@ -3,122 +3,68 @@
 For the lab report this week, I am going to reproduce the task from above on my own. For each numbered step(so steps 4-9), I will take a screenshot,
 and write down exactly which keys I pressed to get to that step
 
-Side note: The general syntax for "find" is
-find [options] [path...] [expression]
 
-**Command (-type)**
--type is used to search a specific type of document within a directory. 
 
-EX 1) 
+**Log into ieng6**
 
-Command
-``` 
-find ./government -type d
- ``` 
-
-The "-type d" commands allows the user to find all the directories within a directory. 
-
-Output
-
-![Image](typeDlab3.png)
-
-EX 2) 
+For this step, you just need to type in "ssh" + your cs15L usernmane. 
+Then you'll be asked to enter your password to fully login to ieng6.
 
 Command
 ``` 
-find ./Post_Rate_comm -type f
+ssh cs15lsp23eo@ieng6.ucsd.edu
+
  ``` 
 
-The "-type f" command allows the user to find all of the files within a directory. 
-
 Output
-![Image](typeFlab3.png)
+
+![Image](ieng6.png)
 
 
-Source: ChatGPT
 
+**Clone your fork of the repository from your Github account**
 
-**Command Option 2 (-empty)**
-
--empty is used to help the user find empty files/directories
+For this step, you'll want to access your github account on your internet browswer. 
+Find the lab 7 repository and fork it. Then once you have a copy of the repository. Now copy the url of YOUR lab 7 repository.  
+Then go the VS Code and enter this command
 
 Example 1 
 
 Command
 ``` 
-find . -type d -empty
+git clone <url>
 
  ```
  Output
  
-![Image](emptyDLab3.png)
+![Image](gitClone.png)
  
-The ". -type d - empty" command allows the user to find all the empty directories within the CSE15L directory. 
 
+**Run the tests, demonstrating that they fail**
 
-
-Example 2
-
+For this step, since the code already fails, all we need to do is run the test. 
+Todo that, we must enter this command. 
 
 Command
 ``` 
-find . -type f -empty
-
- ```
- Output
- 
-![Image](emptyFLab3.png)
-
-The ". -type F - empty" command allows the user to find all the empty files within the CSE15L directory. 
-
-
-Source: ChatGPT
-
-
-**Command (-size)**
-
--size is used to search for files that match a specific size in bytes.
-
-Example 1 
-
-Command
-``` 
-find ./government -size -500c'
+bash test.sh
 
  ``` 
 
 Output
 
-![Image](size--lab3.png)
-
-The "-size -500c" command allowed the user to find the all files what are smaller than 500 bytes. 
-
-Example 2
-Command
-``` 
-find ./government -size +500c'
-
- ``` 
-
-Output
-
-![Image](size+lab3.png)
-
-The "-size +500c" command allowed the user to find the all files what are larger than 500 bytes. 
+![Image](testFail.png)
 
 
-Source: ChatGPT
+**Fix the Error**
 
-
-**Command (-name)**
-
--name -"string"  allows you to search for files and directories based on their names or patterns. 
-
-Example 1 
+For this step, we are already told where the error is and how to fix it. Rather than going to trying to open the file on a text editor. 
+We are going to use the command "vim" along with the file that we want to open.  
+Then we are goin to going to click <i> to start editing the file. Once you are done editing click <esc>
 
 Command
 ``` 
-find media/* -name 'Annual_fee.txt'
+vim ListExamples.java
 
  ``` 
 Output
