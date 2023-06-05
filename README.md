@@ -1,23 +1,15 @@
-# CSE15L LAB 5 REPORT 
+# CSE15L LAB 4 REPORT 
 
-For the lab report this week, I am going to replicate an EdStem conversation that a student and a TA would have. 
+For the lab report this week, I am going to reproduce the task from above on my own. For each numbered step(so steps 4-9), I will take a screenshot,
+and write down exactly which keys I pressed to get to that step
 
-**Part 1**
 
-**Student**
 
-Hello, I'm using a mac operating system, and I'm coding on VS Code for Lab 3. I'm not sure my code is failing the test. 
-I created a test.sh file to test my files when I call <bash test.sh> on the bash script. 
+**Log into ieng6**
 
-Heres my code
-![Image](errorCode.png)
+For this step, you just need to type in "ssh" + your cs15L usernmane. 
+Then you'll be asked to enter your password to fully login to ieng6.
 
-Heres my test.sh file 
-![Image](commandSH.png)
- 
-Heres my output
-![Image](errorTest.png)
- 
 Command
 ``` 
 ssh cs15lsp23eo@ieng6.ucsd.edu
