@@ -69,23 +69,6 @@ vim ListExamples.java
  ``` 
 Output
 
-![Image](specNamelab3.png)
+![Image](fixCode.png)
 
-The "-name 'Annual_fee.txt'" allowed the user to find exact file within the directory media.
-
-
-Example 2
-
-Command
-``` 
-find Post_Rate_Comm/* -name 'Cohenetal_comparison.txt'
-
- ``` 
-Output
-![Image](nameComLab3.png)
-
-The "-name 'Cohenetal_comparison.txt'" allowed the user to find exact file within the directory media.
-
-
-Source: ChatGPT
 
