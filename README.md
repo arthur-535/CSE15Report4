@@ -64,9 +64,10 @@ Then we are goin to going to click <i> to start editing the file. Once you are d
 
 Command
 ``` 
-vim ListExamples.java
- 
-:wp
+1. vim ListExamples.java
+2. "fix the error"
+3. <esc>
+4. :wp
 
  ``` 
 Output
