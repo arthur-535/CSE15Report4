@@ -88,4 +88,4 @@ Command
  ``` 
  Output
 
-![Image](fixCode.png)
+![Image](testCleared.png)
