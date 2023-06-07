@@ -12,7 +12,7 @@ Then you'll be asked to enter your password to fully login to ieng6.
 
 Command
 ``` 
-ssh cs15lsp23eo@ieng6.ucsd.edu
+ssh cs15lsp23eo@ieng6.ucsd.edu <enter>
 
  ``` 
 
@@ -32,7 +32,7 @@ Example 1
 
 Command
 ``` 
-git clone <url>
+git clone "url" <enter>
 
  ```
  Output
@@ -47,7 +47,7 @@ Todo that, we must enter this command.
 
 Command
 ``` 
-bash test.sh
+bash test.sh <enter>
 
  ``` 
 
@@ -66,14 +66,26 @@ Once you are done editing click "esc" then ":wp"
 
 Command
 ``` 
-1. vim ListExamples.java
-2. "fix the error"
+1. vim ListExamples.java <enter>
+2. "fix the error" 
 3. <esc>
-4. :wp
+4. :wp <enter>
 
  ``` 
 Output
 
 ![Image](fixCode.png)
 
+**Run the tests, showing that they pass now**
 
+For this step now all we have to do is call bash test.sh again. 
+Which we can call by clicking the up arrow twice and then clicking enter
+
+Command
+``` 
+<up> <up> <enter>
+
+ ``` 
+ Output
+
+![Image](fixCode.png)
