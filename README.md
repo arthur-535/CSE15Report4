@@ -60,11 +60,13 @@ Output
 
 For this step, we are already told where the error is and how to fix it. Rather than going to trying to open the file on a text editor. 
 We are going to use the command "vim" along with the file that we want to open.  
-Then we are goin to going to click <i> to start editing the file. Once you are done editing click <esc>
+Then we are goin to going to click <i> to start editing the file. Once you are done editing click "esc" then ":wp"
 
 Command
 ``` 
 vim ListExamples.java
+ 
+:wp
 
  ``` 
 Output
