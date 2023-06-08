@@ -89,3 +89,18 @@ Command
  Output
 
 ![Image](testCleared.png)
+ 
+ **Push to GitHub**
+ 
+ For this step, you just ened to write these three commands and then you'll have your code push and commited to your gitHub account. 
+ 
+ Command
+``` 
+git add ListExamples.java
+git commit -m "commit message"
+git push 
+
+ ``` 
+ 
+ THE END
+ 
